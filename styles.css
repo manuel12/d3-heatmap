@@ -1,0 +1,31 @@
+body {
+  font-family: "Varela Round", sans-serif;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 0 20px;
+  width: 200px;
+  height: fit-content;
+  font-size: 1rem;
+  color: white;
+  pointer-events: none;
+}
+
+.legendSvg {
+  display: block;
+}
+
+.legendSvg,
+.legend {
+  display: block;
+  width: 400px !important;
+  height: 100px !important;
+}
